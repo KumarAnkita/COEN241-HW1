@@ -1,0 +1,3012 @@
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Reusing existing file test_file.0
+Reusing existing file test_file.1
+Reusing existing file test_file.2
+Reusing existing file test_file.3
+Reusing existing file test_file.4
+Reusing existing file test_file.5
+Reusing existing file test_file.6
+Reusing existing file test_file.7
+Reusing existing file test_file.8
+Reusing existing file test_file.9
+Reusing existing file test_file.10
+Reusing existing file test_file.11
+Reusing existing file test_file.12
+Reusing existing file test_file.13
+Reusing existing file test_file.14
+Reusing existing file test_file.15
+Reusing existing file test_file.16
+Reusing existing file test_file.17
+Reusing existing file test_file.18
+Reusing existing file test_file.19
+Reusing existing file test_file.20
+Reusing existing file test_file.21
+Reusing existing file test_file.22
+Reusing existing file test_file.23
+Reusing existing file test_file.24
+Reusing existing file test_file.25
+Reusing existing file test_file.26
+Reusing existing file test_file.27
+Reusing existing file test_file.28
+Reusing existing file test_file.29
+Reusing existing file test_file.30
+Reusing existing file test_file.31
+Reusing existing file test_file.32
+Reusing existing file test_file.33
+Reusing existing file test_file.34
+Reusing existing file test_file.35
+Reusing existing file test_file.36
+Reusing existing file test_file.37
+Reusing existing file test_file.38
+Reusing existing file test_file.39
+Reusing existing file test_file.40
+Reusing existing file test_file.41
+Reusing existing file test_file.42
+Reusing existing file test_file.43
+Reusing existing file test_file.44
+Reusing existing file test_file.45
+Reusing existing file test_file.46
+Reusing existing file test_file.47
+Reusing existing file test_file.48
+Reusing existing file test_file.49
+Reusing existing file test_file.50
+Reusing existing file test_file.51
+Reusing existing file test_file.52
+Reusing existing file test_file.53
+Reusing existing file test_file.54
+Reusing existing file test_file.55
+Reusing existing file test_file.56
+Reusing existing file test_file.57
+Reusing existing file test_file.58
+Reusing existing file test_file.59
+Reusing existing file test_file.60
+Reusing existing file test_file.61
+Reusing existing file test_file.62
+Reusing existing file test_file.63
+Reusing existing file test_file.64
+Reusing existing file test_file.65
+Reusing existing file test_file.66
+Reusing existing file test_file.67
+Reusing existing file test_file.68
+Reusing existing file test_file.69
+Reusing existing file test_file.70
+Reusing existing file test_file.71
+Reusing existing file test_file.72
+Reusing existing file test_file.73
+Reusing existing file test_file.74
+Reusing existing file test_file.75
+Reusing existing file test_file.76
+Reusing existing file test_file.77
+Reusing existing file test_file.78
+Reusing existing file test_file.79
+Reusing existing file test_file.80
+Reusing existing file test_file.81
+Reusing existing file test_file.82
+Reusing existing file test_file.83
+Reusing existing file test_file.84
+Reusing existing file test_file.85
+Reusing existing file test_file.86
+Reusing existing file test_file.87
+Reusing existing file test_file.88
+Reusing existing file test_file.89
+Reusing existing file test_file.90
+Reusing existing file test_file.91
+Reusing existing file test_file.92
+Reusing existing file test_file.93
+Reusing existing file test_file.94
+Reusing existing file test_file.95
+Reusing existing file test_file.96
+Reusing existing file test_file.97
+Reusing existing file test_file.98
+Reusing existing file test_file.99
+Reusing existing file test_file.100
+Reusing existing file test_file.101
+Reusing existing file test_file.102
+Reusing existing file test_file.103
+Reusing existing file test_file.104
+Reusing existing file test_file.105
+Reusing existing file test_file.106
+Reusing existing file test_file.107
+Reusing existing file test_file.108
+Reusing existing file test_file.109
+Reusing existing file test_file.110
+Reusing existing file test_file.111
+Reusing existing file test_file.112
+Reusing existing file test_file.113
+Reusing existing file test_file.114
+Reusing existing file test_file.115
+Reusing existing file test_file.116
+Reusing existing file test_file.117
+Extending existing file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+251314176 bytes written in 0.15 seconds (1615.26 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      10193.91
+    writes/s:                     6795.91
+    fsyncs/s:                     21758.75
+
+Throughput:
+    read, MiB/s:                  159.28
+    written, MiB/s:               106.19
+
+General statistics:
+    total time:                          10.0002s
+    total number of events:              387380
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                    5.69
+         95th percentile:                        0.00
+         sum:                                 9969.13
+
+Threads fairness:
+    events (avg/stddev):           387380.0000/0.00
+    execution time (avg/stddev):   9.9691/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.56 seconds (1967.53 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      9064.71
+    writes/s:                     6043.07
+    fsyncs/s:                     19350.63
+
+Throughput:
+    read, MiB/s:                  141.64
+    written, MiB/s:               94.42
+
+General statistics:
+    total time:                          10.0011s
+    total number of events:              344509
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                    6.88
+         95th percentile:                        0.00
+         sum:                                 9973.94
+
+Threads fairness:
+    events (avg/stddev):           344509.0000/0.00
+    execution time (avg/stddev):   9.9739/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 2.02 seconds (1523.79 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      8821.09
+    writes/s:                     5880.73
+    fsyncs/s:                     18818.43
+
+Throughput:
+    read, MiB/s:                  137.83
+    written, MiB/s:               91.89
+
+General statistics:
+    total time:                          10.0050s
+    total number of events:              335261
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                   12.94
+         95th percentile:                        0.00
+         sum:                                 9977.07
+
+Threads fairness:
+    events (avg/stddev):           335261.0000/0.00
+    execution time (avg/stddev):   9.9771/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.93 seconds (1590.43 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      8590.06
+    writes/s:                     5726.71
+    fsyncs/s:                     18327.39
+
+Throughput:
+    read, MiB/s:                  134.22
+    written, MiB/s:               89.48
+
+General statistics:
+    total time:                          10.0008s
+    total number of events:              326353
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                   12.95
+         95th percentile:                        0.00
+         sum:                                 9973.80
+
+Threads fairness:
+    events (avg/stddev):           326353.0000/0.00
+    execution time (avg/stddev):   9.9738/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.84 seconds (1673.17 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      15065.27
+    writes/s:                     10043.38
+    fsyncs/s:                     32163.77
+
+Throughput:
+    read, MiB/s:                  235.39
+    written, MiB/s:               156.93
+
+General statistics:
+    total time:                          10.0004s
+    total number of events:              572515
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                    9.29
+         95th percentile:                        0.00
+         sum:                                19947.58
+
+Threads fairness:
+    events (avg/stddev):           286257.5000/348.50
+    execution time (avg/stddev):   9.9738/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.63 seconds (1886.87 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      14776.79
+    writes/s:                     9851.09
+    fsyncs/s:                     31548.13
+
+Throughput:
+    read, MiB/s:                  230.89
+    written, MiB/s:               153.92
+
+General statistics:
+    total time:                          10.0008s
+    total number of events:              561573
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                   29.36
+         95th percentile:                        0.00
+         sum:                                19949.60
+
+Threads fairness:
+    events (avg/stddev):           280786.5000/15.50
+    execution time (avg/stddev):   9.9748/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.72 seconds (1784.47 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      14887.09
+    writes/s:                     9924.72
+    fsyncs/s:                     31779.59
+
+Throughput:
+    read, MiB/s:                  232.61
+    written, MiB/s:               155.07
+
+General statistics:
+    total time:                          10.0005s
+    total number of events:              565708
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    8.27
+         95th percentile:                        0.00
+         sum:                                19947.79
+
+Threads fairness:
+    events (avg/stddev):           282854.0000/396.00
+    execution time (avg/stddev):   9.9739/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.81 seconds (1693.71 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      15199.39
+    writes/s:                     10132.79
+    fsyncs/s:                     32450.54
+
+Throughput:
+    read, MiB/s:                  237.49
+    written, MiB/s:               158.32
+
+General statistics:
+    total time:                          10.0028s
+    total number of events:              577754
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.03
+         max:                                    8.58
+         95th percentile:                        0.00
+         sum:                                19951.94
+
+Threads fairness:
+    events (avg/stddev):           288877.0000/397.00
+    execution time (avg/stddev):   9.9760/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 2.13 seconds (1442.42 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 3
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      19108.15
+    writes/s:                     12738.64
+    fsyncs/s:                     40801.39
+
+Throughput:
+    read, MiB/s:                  298.56
+    written, MiB/s:               199.04
+
+General statistics:
+    total time:                          10.0009s
+    total number of events:              726187
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    8.97
+         95th percentile:                        0.00
+         sum:                                29932.30
+
+Threads fairness:
+    events (avg/stddev):           242062.3333/533.89
+    execution time (avg/stddev):   9.9774/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.82 seconds (1687.29 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 3
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      19763.61
+    writes/s:                     13175.61
+    fsyncs/s:                     42199.06
+
+Throughput:
+    read, MiB/s:                  308.81
+    written, MiB/s:               205.87
+
+General statistics:
+    total time:                          10.0003s
+    total number of events:              751044
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    9.86
+         95th percentile:                        0.00
+         sum:                                29927.88
+
+Threads fairness:
+    events (avg/stddev):           250348.0000/841.66
+    execution time (avg/stddev):   9.9760/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.78 seconds (1724.16 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 3
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      19302.35
+    writes/s:                     12868.07
+    fsyncs/s:                     41213.34
+
+Throughput:
+    read, MiB/s:                  301.60
+    written, MiB/s:               201.06
+
+General statistics:
+    total time:                          10.0003s
+    total number of events:              733501
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    8.72
+         95th percentile:                        0.00
+         sum:                                29928.91
+
+Threads fairness:
+    events (avg/stddev):           244500.3333/593.25
+    execution time (avg/stddev):   9.9763/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.99 seconds (1547.32 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 3
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      20284.11
+    writes/s:                     13522.67
+    fsyncs/s:                     43310.31
+
+Throughput:
+    read, MiB/s:                  316.94
+    written, MiB/s:               211.29
+
+General statistics:
+    total time:                          10.0008s
+    total number of events:              770874
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.04
+         max:                                    8.71
+         95th percentile:                        0.00
+         sum:                                29927.08
+
+Threads fairness:
+    events (avg/stddev):           256958.0000/521.59
+    execution time (avg/stddev):   9.9757/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.81 seconds (1700.93 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      22414.13
+    writes/s:                     14942.52
+    fsyncs/s:                     47865.66
+
+Throughput:
+    read, MiB/s:                  350.22
+    written, MiB/s:               233.48
+
+General statistics:
+    total time:                          10.0010s
+    total number of events:              851824
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    9.02
+         95th percentile:                        0.00
+         sum:                                39914.99
+
+Threads fairness:
+    events (avg/stddev):           212956.0000/331.03
+    execution time (avg/stddev):   9.9787/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 2.05 seconds (1500.36 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      22905.90
+    writes/s:                     15270.43
+    fsyncs/s:                     48909.60
+
+Throughput:
+    read, MiB/s:                  357.90
+    written, MiB/s:               238.60
+
+General statistics:
+    total time:                          10.0006s
+    total number of events:              870431
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                   10.79
+         95th percentile:                        0.00
+         sum:                                39911.24
+
+Threads fairness:
+    events (avg/stddev):           217607.7500/815.36
+    execution time (avg/stddev):   9.9778/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 1.69 seconds (1814.01 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      22845.65
+    writes/s:                     15230.23
+    fsyncs/s:                     48784.10
+
+Throughput:
+    read, MiB/s:                  356.96
+    written, MiB/s:               237.97
+
+General statistics:
+    total time:                          10.0016s
+    total number of events:              868257
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    9.56
+         95th percentile:                        0.00
+         sum:                                39915.74
+
+Threads fairness:
+    events (avg/stddev):           217064.2500/509.32
+    execution time (avg/stddev):   9.9789/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 24576Kb each, 3072Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Creating file test_file.0
+Creating file test_file.1
+Creating file test_file.2
+Creating file test_file.3
+Creating file test_file.4
+Creating file test_file.5
+Creating file test_file.6
+Creating file test_file.7
+Creating file test_file.8
+Creating file test_file.9
+Creating file test_file.10
+Creating file test_file.11
+Creating file test_file.12
+Creating file test_file.13
+Creating file test_file.14
+Creating file test_file.15
+Creating file test_file.16
+Creating file test_file.17
+Creating file test_file.18
+Creating file test_file.19
+Creating file test_file.20
+Creating file test_file.21
+Creating file test_file.22
+Creating file test_file.23
+Creating file test_file.24
+Creating file test_file.25
+Creating file test_file.26
+Creating file test_file.27
+Creating file test_file.28
+Creating file test_file.29
+Creating file test_file.30
+Creating file test_file.31
+Creating file test_file.32
+Creating file test_file.33
+Creating file test_file.34
+Creating file test_file.35
+Creating file test_file.36
+Creating file test_file.37
+Creating file test_file.38
+Creating file test_file.39
+Creating file test_file.40
+Creating file test_file.41
+Creating file test_file.42
+Creating file test_file.43
+Creating file test_file.44
+Creating file test_file.45
+Creating file test_file.46
+Creating file test_file.47
+Creating file test_file.48
+Creating file test_file.49
+Creating file test_file.50
+Creating file test_file.51
+Creating file test_file.52
+Creating file test_file.53
+Creating file test_file.54
+Creating file test_file.55
+Creating file test_file.56
+Creating file test_file.57
+Creating file test_file.58
+Creating file test_file.59
+Creating file test_file.60
+Creating file test_file.61
+Creating file test_file.62
+Creating file test_file.63
+Creating file test_file.64
+Creating file test_file.65
+Creating file test_file.66
+Creating file test_file.67
+Creating file test_file.68
+Creating file test_file.69
+Creating file test_file.70
+Creating file test_file.71
+Creating file test_file.72
+Creating file test_file.73
+Creating file test_file.74
+Creating file test_file.75
+Creating file test_file.76
+Creating file test_file.77
+Creating file test_file.78
+Creating file test_file.79
+Creating file test_file.80
+Creating file test_file.81
+Creating file test_file.82
+Creating file test_file.83
+Creating file test_file.84
+Creating file test_file.85
+Creating file test_file.86
+Creating file test_file.87
+Creating file test_file.88
+Creating file test_file.89
+Creating file test_file.90
+Creating file test_file.91
+Creating file test_file.92
+Creating file test_file.93
+Creating file test_file.94
+Creating file test_file.95
+Creating file test_file.96
+Creating file test_file.97
+Creating file test_file.98
+Creating file test_file.99
+Creating file test_file.100
+Creating file test_file.101
+Creating file test_file.102
+Creating file test_file.103
+Creating file test_file.104
+Creating file test_file.105
+Creating file test_file.106
+Creating file test_file.107
+Creating file test_file.108
+Creating file test_file.109
+Creating file test_file.110
+Creating file test_file.111
+Creating file test_file.112
+Creating file test_file.113
+Creating file test_file.114
+Creating file test_file.115
+Creating file test_file.116
+Creating file test_file.117
+Creating file test_file.118
+Creating file test_file.119
+Creating file test_file.120
+Creating file test_file.121
+Creating file test_file.122
+Creating file test_file.123
+Creating file test_file.124
+Creating file test_file.125
+Creating file test_file.126
+Creating file test_file.127
+3221225472 bytes written in 2.02 seconds (1521.82 MiB/sec).
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 24MiB each
+3GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      23111.25
+    writes/s:                     15407.23
+    fsyncs/s:                     49349.22
+
+Throughput:
+    read, MiB/s:                  361.11
+    written, MiB/s:               240.74
+
+General statistics:
+    total time:                          10.0012s
+    total number of events:              878300
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                   12.82
+         95th percentile:                        0.00
+         sum:                                39912.41
+
+Threads fairness:
+    events (avg/stddev):           219575.0000/377.96
+    execution time (avg/stddev):   9.9781/0.00
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Removing test files...
